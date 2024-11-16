@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      @media (max-width: 600px) {
+        .thumbnail .item img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+    </style>
+    <style>
+      html,
+      body {
+        overflow: hidden;
+      }
+    </style>
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
+    <!-- DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="bg-blue-950 z-50 relative">
+      <div class="drawer">
+        <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+        <div class="drawer-content flex flex-col">
+          <!-- Navbar -->
+          <div class="navbar w-full">
+            <div class="flex-none lg:hidden">
+              <label for="my-drawer-3" aria-label="open sidebar" class="btn btn-square btn-ghost">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  class="inline-block h-6 w-6 stroke-current">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                  </path>
+                </svg>
+              </label>
+            </div>
+            <div class="mx-2 flex-1 px-2 lg:hidden">Menu</div>
+            <div class="hidden flex-none lg:flex justify-center w-full">
+              <ul class="menu menu-horizontal">
+                <!-- Navbar menu content here -->
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./team.html">Our Team</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="drawer-side">
+          <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
+          <ul class="menu bg-base-200 min-h-full w-80 p-4">
+            <!-- Sidebar content here -->
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./team.html">Our Team</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="text-gray-600 body-font bg-blue-950">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Our team is working day and night to ensure the cutting
+            edge technology for the safety and security</p>
+        </div>
+
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-current">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="image/Chief Panel/Faysal Mohammed Abir [Chief Research Officer].JPG">
+              <div class="flex-grow">
+                <h2 class="member-name">Faysal Mohammed Abir</h2>
+                <p class="designation">Chief Research Officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-current">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="image/Chief Panel/S M Mushfiq Reza_CEO.jpeg">
+              <div class="flex-grow">
+                <h2 class="member-name">Mushfiq Reza</h2>
+                <p class="designation">Founder and Chief Executive Officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-current">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="image/Chief Panel/Fahmida Hoque Mahima [Chief Marketing Officer].jpg">
+              <div class="flex-grow">
+                <h2 class="member-name">Fahmida Hoque Mahima</h2>
+                <p class="designation">Chief Marketing Officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-current">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="image/Chief Panel/Nawaz Uddin Tamim [Deputy Chief Research officer].jpg">
+              <div class="flex-grow">
+                <h2 class="member-name">Tamim Nawaz</h2>
+                <p class="designation">Deputy Chief Research Officer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-current">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="image/Managers/Sumaiya Tabassum [Production Development Manager].JPEG">
+              <div class="flex-grow">
+                <h2 class="member-name">Sumaiya Tabassum</h2>
+                <p class="designation">Production Development Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-current">
+              <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="image/Managers/Zarin Tasnim Promete [Human Resourse Manager].jpeg">
+              <div class="flex-grow">
+                <h2 class="member-name">Zarin Tasnim Promete</h2>
+                <p class="designation">Human Resource Manager</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+  </body>
